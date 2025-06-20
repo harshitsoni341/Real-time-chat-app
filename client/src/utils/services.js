@@ -1,4 +1,4 @@
-export const baseUrl = "http://localhost:8080/api" ;//server url where we send request to server from client 
+export const baseUrl = "https://backend-4r9u.onrender.com" ;//server url where we send request to server from client 
 
 export const postRequest = async(url, body) => {//posting request to server from client 
     console.log("body", body);
